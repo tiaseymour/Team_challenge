@@ -1,7 +1,3 @@
-
-
-
-
 h1 {
 	color: blue;
 	text-align: center;
@@ -22,4 +18,11 @@ h2 {
 
 img {
 	width: 100%;
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+img:hover {
+	opacity: .5;
 }
