@@ -12,24 +12,25 @@ h2 {
 
 
 #books {
-	background-color: yellow;
+	background-color: blue;
+	opacity: 50%;
 	padding: 16px;
+
 }
 
 img {
 	width: 100%;
-<<<<<<< HEAD
 	opacity: 1;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+	padding: 1px;
+    border: 10px solid #021a40;
+    background-color: #f25;
 }
 
 img:hover {
 	opacity: .5;
 }
-=======
-}
-
  
 footer
 h3{
@@ -42,4 +43,3 @@ h3{
 	text-align: center;
 	font-size: 16px
 }
->>>>>>> origin/master
