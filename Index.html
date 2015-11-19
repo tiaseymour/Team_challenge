@@ -157,19 +157,34 @@
 </body>
 
 <footer>
-	<h3>Send a suggestion to: team@communityclubs.com</h3>
+	<h3>Send a Suggestion</h3>
 
 	<section id='input_form'>
 
 		<form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
-			Name: <br>
-				<input type="text" name="name" value="your name"><br>
-			E-mail: <br>
-				<input type="text" name="mail" value="your email address"><br>
-			Suggestion: <br>
-				<input type="text" name="suggestion" value="your suggestion" size="50"><br><br>
-
-			<input type="submit" value="Send">
+			<fieldset>
+				<legend><span class="number">1</span> Your Details</legend>
+				<label>Name:</label>
+					<input type="text" name="name" placeholder="Your Name">
+				<label>E-mail:</label>
+					<input type="email" name="mail" placerholder="Your Email">
+				<label>Group:</label>
+					<select id="job" name="field4">
+						<optgroup label="Community Club">
+						  <option value="Book">Book</option>
+						  <option value="Film">Film</option>
+						  <option value="Music">Music</option>
+						  <option value="Cookery">Cookery</option>
+						  <option value="Entrepreneurial">Gaming</option>
+						</optgroup>
+					</select>  
+			</fieldset>
+			<fieldset>
+				<legend><span class="number">2</span> Suggestion</legend>
+				Suggestion:
+					<textarea name="suggestion" placeholder="What would you like to add to the list?"></textarea>
+			</fieldset>	
+				<input type="submit" value="Send">
 		</form>
 
 	</section>
