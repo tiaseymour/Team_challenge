@@ -41,18 +41,17 @@ h2 {
   opacity:0.6;
   filter:alpha(opacity=60); /* For IE8 and earlier */
 }
+
 #transbox1 p
 {
-  margin: 5%;
+  margin: 3%;
   font-weight: bold;
   color: #000000;
 }
 
-#transbox2
-{
-  background: center transparent img src=(http://d.gr-assets.com/books/1336172455l/7572.jpg) no-repeat; 
-}
-
+#transbox1:hover {
+    opacity: .5;
+   } 
 
 #films {
     background-color: red;
