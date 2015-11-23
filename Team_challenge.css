@@ -17,6 +17,7 @@
 }
 
 
+
 h2 {
 	text-align: center;
 	font-size: 38px;
@@ -31,6 +32,22 @@ h2 {
 	padding: 16px;
 
 }
+
+div.transbox
+{
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+div.transbox p
+{
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
 
 #films {
     background-color: red;
