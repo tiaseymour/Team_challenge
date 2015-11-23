@@ -17,7 +17,6 @@
 }
 
 
-
 h2 {
 	text-align: center;
 	font-size: 38px;
@@ -61,12 +60,15 @@ h2 {
   padding-bottom: 16px;
 }
 
-#transbox1
-{
+#transbox1 {
+  width: 100%;
+  height: 50%;
   margin: 20px;
+  margin-top: -275px;
   background-color: #ffffff;
   border: 1px solid black;
-  opacity:0.6;
+  opacity:0.5;
+  display:none;
   filter:alpha(opacity=60); /* For IE8 and earlier */
 }
 
@@ -79,24 +81,31 @@ h2 {
 
 #transbox1:hover {
     opacity: .5;
+    display:inline;
    } 
-
-span.text-content {
-  background: rgba(0,0,0,0.5);
-  color: white;
-  cursor: pointer;
-  display: table;
-  height: 150px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 150px;
-}
 
 span.text-content span {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+}
+
+#films {
+    background-color: red;
+    opacity: 50%;
+    padding: 16px;
+}
+
+#music {
+    background-color: blue;
+    opacity: 50%;
+    padding: 16px;
+}
+
+#recipes {
+    background-color: black;
+    opacity: 50%;
+    padding: 16px;
 }
 
 img {
