@@ -35,9 +35,10 @@ h2 {
 
 #transbox1
 {
-  margin: 30px;
+  margin: 20px;
   background-color: #ffffff;
   border: 1px solid black;
+  display: inline;
   opacity:0.6;
   filter:alpha(opacity=60); /* For IE8 and earlier */
 }
