@@ -33,6 +33,24 @@ h2 {
 
 }
 
+#films {
+    background-color: red;
+    opacity: 50%;
+    padding: 16px;
+}
+
+#music {
+    background-color: blue;
+    opacity: 50%;
+    padding: 16px;
+}
+
+#recipes {
+    background-color: black;
+    opacity: 50%;
+    padding: 16px;
+}
+
 #transbox1
 {
   margin: 20px;
@@ -69,24 +87,6 @@ span.text-content span {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-}
-
-#films {
-    background-color: red;
-    opacity: 50%;
-    padding: 16px;
-}
-
-#music {
-    background-color: blue;
-    opacity: 50%;
-    padding: 16px;
-}
-
-#recipes {
-    background-color: black;
-    opacity: 50%;
-    padding: 16px;
 }
 
 img {
