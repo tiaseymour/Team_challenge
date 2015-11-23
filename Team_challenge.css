@@ -1,21 +1,111 @@
-h1 {
-	color: blue;
+#title h1 {
+	margin-top: -140px;
+	width: 100%;
+	height: 15%;
+    padding: 10px;
+    position: fixed;
+	z-index: 1;
 	text-align: center;
     font-size: 68px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E0E0DC;
+    opacity: 0.9;
+}
+
+#content {
+	margin-top: 140px;
 }
 
 
 h2 {
 	text-align: center;
-	font-size: 32px;
+	font-size: 38px;
+	font-family: 'Raleway', sans-serif;
+    background-color: #FFFFFF;
+    padding: 30px;
 }
 
-
 #books {
-	background-color: blue;
+	background-color: black;
 	opacity: 50%;
-	padding: 16px;
+  padding-bottom: 16px;
 
+}
+
+#films {
+    background-color: black;
+    opacity: 50%;
+      padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+#music {
+    background-color: black;
+    opacity: 50%;
+      padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+#recipes {
+    background-color: black;
+    opacity: 50%;
+    padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+#startupidea {
+  background-color: black;
+  opacity: 50%;
+    padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+#transbox1 {
+  width: 100%;
+  height: 50%;
+  margin: 20px;
+  margin-top: -275px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity:0.5;
+  display:none;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#transbox1 p
+{
+  margin: 3%;
+  font-weight: bold;
+  color: #000000;
+}
+
+#transbox1:hover {
+    opacity: .5;
+    display:inline;
+   } 
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#films {
+    background-color: black;
+    opacity: 50%;
+    padding: 16px;
+}
+
+#music {
+    background-color: black;
+    opacity: 50%;
+    padding: 16px;
+}
+
+#recipes {
+    background-color: black;
+    opacity: 50%;
+    padding: 16px;
 }
 
 img {
@@ -30,16 +120,97 @@ img {
 
 img:hover {
 	opacity: .5;
-}
- 
-footer
-h3{
+   } 
+
+footer h3 {
 	text-align: center;
 	font-size: 20px;
+	padding: 30px;
+	border-top: 2px black;
+	font-family: 'Raleway', sans-serif;
 }
 
-#input_form {
-	background-color: gray;
-	text-align: center;
-	font-size: 16px
+form {
+    max-width: 800px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: 'Raleway', sans-serif;
+}
+
+fieldset{
+    border: none;
+}
+
+legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    font-family: 'Raleway', sans-serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px; 
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus {
+    background: #d2d9dd;
+}
+
+select {
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+.number {
+    background: #021a40;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+input[type="submit"] {
+    position: relative;
+    display: block;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #021a40;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 20%;
+    border: 1px solid #021a40;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover {
+    background: #109177;
 }
