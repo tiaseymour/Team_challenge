@@ -33,7 +33,7 @@ h2 {
 
 }
 
-div.transbox
+#transbox1
 {
   margin: 30px;
   background-color: #ffffff;
@@ -41,11 +41,16 @@ div.transbox
   opacity:0.6;
   filter:alpha(opacity=60); /* For IE8 and earlier */
 }
-div.transbox p
+#transbox1 p
 {
   margin: 5%;
   font-weight: bold;
   color: #000000;
+}
+
+#transbox2
+{
+  background: center transparent img src=(http://d.gr-assets.com/books/1336172455l/7572.jpg) no-repeat; 
 }
 
 
